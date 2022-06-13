@@ -1,0 +1,2 @@
+PVOID GameAssembly;
+PEPROCESS Process;

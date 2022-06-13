@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Cheat">
+      <UniqueIdentifier>{8f2c6774-c2c2-4791-a97f-1e0f957fb703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cheat\Other">
+      <UniqueIdentifier>{63077d25-f6f5-42c9-8ae7-80b91a8d76d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{1693713f-811a-4428-8baf-cf59e622e8c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cheat\class">
+      <UniqueIdentifier>{90cadddf-c3f6-4d7c-820c-976dc6c78e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{465fd6ec-420d-4993-b59a-fa26062be5ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameAssambly.h">
+      <Filter>Source Files\Cheat\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="gameasL.h">
+      <Filter>Source Files\Cheat\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="import.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="p_enum.h">
+      <Filter>Source Files\Cheat\class</Filter>
+    </ClInclude>
+    <ClInclude Include="p_TOD_Sky.h">
+      <Filter>Source Files\Cheat\class</Filter>
+    </ClInclude>
+    <ClInclude Include="p_OcclusionCulling.h">
+      <Filter>Source Files\Cheat\class</Filter>
+    </ClInclude>
+    <ClInclude Include="p_LocalPlayer.h">
+      <Filter>Source Files\Cheat\class</Filter>
+    </ClInclude>
+    <ClInclude Include="p_BasePlayer.h">
+      <Filter>Source Files\Cheat\class</Filter>
+    </ClInclude>
+    <ClInclude Include="p_ConVar_Graphics.h">
+      <Filter>Source Files\Cheat\class</Filter>
+    </ClInclude>
+    <ClInclude Include="p_PlayerWalkMovement.h">
+      <Filter>Source Files\Cheat\class</Filter>
+    </ClInclude>
+    <ClInclude Include="p_weapon.h">
+      <Filter>Source Files\Cheat\class</Filter>
+    </ClInclude>
+    <ClInclude Include="p_BaseProjectile.h">
+      <Filter>Source Files\Cheat\class</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p_pointer.h">
+      <Filter>Source Files\Cheat\class</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
